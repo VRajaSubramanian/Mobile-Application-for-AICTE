@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="100dp"
+        android:id="@+id/idIVLogo"
+        android:contentDescription="TODO" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@+id/idIVLogo"
+        android:text="ALL INDIA COUNCIL FOR TECHNICAL EDUCATION"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:padding="4dp"
+        android:layout_marginTop="50dp"
+        android:id="@id/idTVAppName"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVAppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
